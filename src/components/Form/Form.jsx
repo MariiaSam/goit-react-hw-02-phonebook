@@ -17,21 +17,16 @@ const schema = object().shape({
 export const Form = ({ onAddContact }) => {
   return (
     <Formik
-    //   initialValues={{
-    //     name: '',
-    //     number: '',
-    //   }}
-    //   validationSchema={schema}
-    //   onSubmit={(values, { resertForm }) => {
-    //     onAddContact({ id: nanoid(), ...values });
-    //     resertForm();
-    //   }}
+      initialValues={{
+        name: '',
+        number: '',
+      }}
+      validationSchema={schema}
+      onSubmit={(values, { resertForm }) => {
+        onAddContact({ id: nanoid(), ...values });
+        resertForm();
+      }}
     > 
-    <Form>
-    
-
-    </Form>
-  
         
     </Formik>
   );
