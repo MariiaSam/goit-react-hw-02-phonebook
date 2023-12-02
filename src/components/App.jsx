@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { Section } from './Section/Section';
-import { Form } from './Form/Form';
+import { ContactForm } from './ContactForm/ContactForm';
 
 import { ContactsTitle } from './ContactsTitle/ContactsTitle';
 
@@ -34,7 +34,7 @@ export class App extends Component {
     return (
       <div>
         <Section title="Phonebook">
-          <Form onAddContact={this.addContact}></Form>
+          <ContactForm onAddContact={this.addContact}></ContactForm>
           <ContactsTitle title="Contacts"></ContactsTitle>
         </Section>
       </div>

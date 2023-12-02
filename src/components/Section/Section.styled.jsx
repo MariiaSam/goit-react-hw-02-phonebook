@@ -28,6 +28,6 @@ export const Title = styled.h1`
 
   text-shadow: 1px 1px 1px #d1c4c4;
 
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
 `;
