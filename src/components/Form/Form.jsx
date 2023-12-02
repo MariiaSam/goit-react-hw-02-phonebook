@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Formik } from 'formik';
 import { object, string } from 'yup';
 import { nanoid } from 'nanoid';
