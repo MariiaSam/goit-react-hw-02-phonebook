@@ -33,9 +33,9 @@ export const ContactForm = ({ onAddContact }) => {
         number: '',
       }}
       validationSchema={schema}
-      onSubmit={(values, { resertForm }) => {
+      onSubmit={(values, { resetForm }) => {
         onAddContact({ id: nanoid(), ...values });
-        resertForm();
+        resetForm();
       }}
     >
       <FormStyled>
