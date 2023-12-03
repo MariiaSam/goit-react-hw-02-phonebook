@@ -10,7 +10,7 @@ export const SectionMain = styled.section`
   padding-bottom: 8px;
 
   max-width: 100%;
-  width: 550px;
+  width: 700px;
 
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
